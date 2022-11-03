@@ -7,6 +7,7 @@ var diceSidesAmount = diceInput.value
 
 rollDice.onclick = function rollDice(){
     let sides = diceInput.value;
-    var randomNumber = Math.floor(Math.random() * sides);
+    var randomNumber = Math.ceil(Math.random() * sides);
     diceResult.innerText = randomNumber;
+    
 }
