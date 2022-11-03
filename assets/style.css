@@ -5,8 +5,14 @@ body {
 #visualRollerCont{
     display: inline;
 }
+#resultOutput {
+    
+}
 /* image tiles */
 .tile {
 height: 90px;
 width: 90px;
+}
+h1{
+    color:white
 }
