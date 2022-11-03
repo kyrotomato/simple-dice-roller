@@ -1,5 +1,6 @@
 <!--This is going to be my front end for my dice rolling app-->
-<script src="roll.js"></script>
+<body>
+<link rel="stylesheet" href="./assets/style.css">
 <main>
     <div id='mainAppCont'>
         <form>
@@ -7,13 +8,19 @@
             <button id='rollDice' type='button'>Click to roll!</button>
         </form>
         <div id="resultCont">
-            <p id="resultOutput"></p>
+            <h1 id="resultOutput"></h1>
         </div>
     </div>
     <div id='visualRollerCont'>
-        <img src='./assets/d4.jpg' role='button' id="d4" />
+        <img src='./assets/d4.jpg' role='button' id="d4" class="tile" />
+        <img src='./assets/d6.png' role='button' id="d6" class="tile" />
+        <img src='./assets/d8.png' role='button' id="d8" class="tile" />
+        <img src='./assets/d10.jpg' role='button' id="d10" class="tile" />
+        <img src='./assets/d12.png' role='button' id="d12" class="tile" />
+        <img src='./assets/d20.png' role='button' id="d20" class="tile" />
         <p id="resultOutput"></p>
     </div>
 </main>
 
 <script src="./assets/roll.js"></script>
+</body>

@@ -1,0 +1,12 @@
+/* Container for the dice images */
+body {
+    background-color: black;
+}
+#visualRollerCont{
+    display: inline;
+}
+/* image tiles */
+.tile {
+height: 90px;
+width: 90px;
+}
