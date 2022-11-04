@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* Container for the dice images */
 body {
     background-color: black;
@@ -5,13 +9,34 @@ body {
 #visualRollerCont{
     display: inline;
 }
-#resultOutput {
+#title{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 15%;
+}
+/*results*/
+#resultCont{
+    position: absolute;
+    right:65%;
+    margin-top: 10px;
+    font-size: 40px;
     
+}
+#resultOutput {
+ color: yellow;
+ 
+}
+/*image container*/
+#dieCont{
+    border:5px solid yellow;
+    width: fit-content;
+    position: relative;
 }
 /* image tiles */
 .tile {
 height: 90px;
 width: 90px;
+border: 5px solid black;
 }
 h1{
     color:white
